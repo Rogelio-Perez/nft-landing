@@ -9,20 +9,21 @@ import Release from "./components/Release"
 import Like from "./components/Like"
 import Singup from "./components/Singup"
 import Footer from "./components/Footer"
+import "./scss/index.scss"
 
 export default function App() {
   return (
     <div className="app-container">
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
       <Navbar />
       <Home />
-      <Free />
-      <Clients />
-      <SuperRare />
-      <Release />
-      <Like />
-      <Singup />
-      <Footer />
+      {/* <Free /> */}
+      {/* <Clients /> */}
+      {/* <SuperRare /> */}
+      {/* <Release /> */}
+      {/* <Like /> */}
+      {/* <Singup /> */}
+      {/* <Footer /> */}
     </div>
   )
 }
