@@ -7,7 +7,7 @@ import Clients from "./components/Clients"
 import SuperRare from "./components/SuperRare"
 import Release from "./components/Release"
 import Like from "./components/Like"
-import Singup from "./components/Singup"
+import Signup from "./components/Signup"
 import Footer from "./components/Footer"
 import "./scss/index.scss"
 
@@ -22,7 +22,7 @@ export default function App() {
       <SuperRare />
       <Release />
       <Like />
-      <Singup />
+      <Signup />
       <Footer />
     </div>
   )
