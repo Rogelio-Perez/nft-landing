@@ -18,9 +18,9 @@ export default function Home() {
           <div className="image">
             <img src={home} alt="home" />
           </div>
-          <div className="elipse-container">
-            <div className="elipse pink">
-              <div className="elipse orange"></div>
+          <div className="ellipse-container">
+            <div className="ellipse pink">
+              <div className="ellipse orange"></div>
             </div>
           </div>
         </div>
