@@ -18,12 +18,12 @@ export default function App() {
       <Navbar />
       <Home />
       <Free />
-      {/* <Clients /> */}
-      {/* <SuperRare /> */}
-      {/* <Release /> */}
-      {/* <Like /> */}
-      {/* <Singup /> */}
-      {/* <Footer /> */}
+      <Clients />
+      <SuperRare />
+      <Release />
+      <Like />
+      <Singup />
+      <Footer />
     </div>
   )
 }
