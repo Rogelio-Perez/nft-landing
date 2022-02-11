@@ -58,8 +58,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="lower">
-        <span>&copy; Copyright 2022 NTF - By Razvi ❤️ </span>
-        <span>Launching February 2022 </span>
+        <span>&copy; Copyright 2022 NTF</span>
+        <span>Launching February 2022 - By Razvi ❤️ </span>
       </div>
     </footer>
   )

@@ -19,7 +19,7 @@ export default function Free() {
           </div>
           <h2 className="title">Free NFT for early birds</h2>
           <p className="description">
-            Sing up today and you'll get afree NFT when we launch
+            Sing up today and you'll get a free NFT when we launch
           </p>
         </div>
       </div>

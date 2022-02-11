@@ -14,7 +14,7 @@ import "./scss/index.scss"
 export default function App() {
   return (
     <div className="app-container">
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
       <Navbar />
       <Home />
       <Free />
