@@ -14,7 +14,13 @@ export default function Navbar({ changeTheme, currentTheme }) {
           <img src={logo} alt="logo" />
         </div>
         <div className="toggle-container">
-          <div className="toggle"></div>
+          <div className="toggle">
+            {navState ? (
+              <MdClose onClick={() => setNavState(false)} />
+            ) : (
+              <GiHamburgerMenu onClick={() => setNavState(true)} />
+            )}
+          </div>
           <div className="mode">
             {currentTheme === "dark" ? (
               <ImSun className="light" />
@@ -24,7 +30,7 @@ export default function Navbar({ changeTheme, currentTheme }) {
           </div>
         </div>
       </div>
-      <div className="links-container">
+      <div className={`links-container ${navState ? "nav-visible" : ""} `}>
         <ul className="links">
           <li>
             <a href="#">Features</a>
